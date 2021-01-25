@@ -1,0 +1,33 @@
+
+$font-main:
+    'Quicksand',
+    'Source Sans Pro',
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    'Helvetica Neue',
+    Arial,
+    sans-serif;
+$bauhus: 'Bauhaus 93';
+
+$transition: 0.5s ease background-color, 0.2s ease opacity;
+
+:root{
+    --main:#397fa7;
+    --dark:#181818;
+    --light:#fffafa;
+}
+
+[data-theme="darkMode"] {
+    /* Variables for dark mode */
+     --main:#397fa7;
+     --light:#181818;
+     --dark:#fffafa;
+}
+
+$colors: (
+    main:var(--main),
+    dark:var(--dark),
+    light:var(--light),
+);

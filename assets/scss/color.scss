@@ -1,0 +1,31 @@
+
+.main-text {
+  transition: $transition;
+  color: color(main) !important;
+}
+
+.dark-text {
+  transition: $transition;
+  color: color(dark) !important;
+}
+
+.light-text {
+  transition: $transition;
+  color: color(light) !important;
+}
+
+
+.main-bg {
+  transition: $transition;
+  background-color: color(main) !important;
+}
+
+.dark-bg {
+  transition: $transition;
+  background-color: color(dark) !important;
+}
+
+.light-bg {
+  transition: $transition;
+  background-color: color(light) !important;
+}
