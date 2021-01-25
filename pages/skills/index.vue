@@ -7,7 +7,7 @@
 
       </div>
       <div class="row d-flex pb-5" >
-        Inan updated
+        Inan updated again
       </div>
   </div>
 </template>
