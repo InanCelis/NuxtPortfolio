@@ -1,26 +1,21 @@
 <template>
-  <div class="container">
-      <div class="row ml-2">
-          <div class="h_line shadow"></div>
-          <h5 class="text-center text-md-left text-uppercase font-weight-bold dark-text" >Resume</h5>
-          <span class="page-number dark-text d-none d-xl-block ml-auto">03</span>
-      </div>
-      <div class="row d-flex pb-5" >
-          <div class="container">
-              <div class="row">
-                  <div class="col-md-12 mb-4" v-if="works.length">
-                      <h4 class="font-weight-bold mb-4 dark-text">Working Experience</h4>
-                      <!-- this is from component resume no need to import it still work -->
-                      <Work :work="works"/>
-                  </div>
-                  <div class="col-md-12 mb-4" v-if="educations.length">
-                      <h4 class="font-weight-bold mb-4 dark-text">Educational Background</h4>
-                      <!-- this is from component resume no need to import it still work -->
-                      <Education :education="educations"/>
-                  </div>
+  <div>
+      <PageName :page='"Resume"' :number='"03"'/>
+      <div class="container pb-5">
+          <div class="row">
+              <div class="col-md-12 mb-4" v-if="works.length">
+                  <h4 class="font-weight-bold mb-4">Working Experience</h4>
+                  <!-- this is from component resume no need to import it still work -->
+                  <Work :work="works"/>
+              </div>
+              <div class="col-md-12 mb-4" v-if="educations.length">
+                  <h4 class="font-weight-bold mb-4">Educational Background</h4>
+                  <!-- this is from component resume no need to import it still work -->
+                  <Education :education="educations"/>
               </div>
           </div>
       </div>
+
   </div>
 </template>
 

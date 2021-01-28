@@ -2,7 +2,7 @@
   <div>
     <SocialIcon :social="socials"/>
     <Header />
-    <Nuxt class="container page-content"/>
+    <Nuxt class="container page-content dark-text"/>
     <Foot :social="socials"/>
   </div>
 </template>
